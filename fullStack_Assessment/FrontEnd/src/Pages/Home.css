@@ -1,0 +1,10 @@
+.button-links {
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.btn {
+    margin-bottom: 10px; /* Space between buttons */
+    display: block; /* Ensures each link/button is on a new line */
+    width: 100%; /* Full width buttons */
+    text-align: center; /* Center aligns text within buttons */
+}

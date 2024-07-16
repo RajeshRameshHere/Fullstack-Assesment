@@ -1,0 +1,67 @@
+/* General Navbar Styles */
+.navbar {
+    background-color: #007bff; /* Primary color */
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28155, 155, 155, 0.55%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Link Styles */
+.navbar .btn- {
+    color: white;
+    border: 2px solid white; /* Thicker border */
+    border-radius: 4px; /* Rounded corners */
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.navbar .btn-:hover {
+    background-color: white;
+    color: #007bff;
+    border-color: #007bff; /* Match the border color to the primary color */
+}
+
+.navbar .btn-:active {
+    background-color: #0056b3; /* Darker shade for active state */
+    color: white;
+    border-color: white; /* Keep the border color white */
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+    .navbar-toggler {
+        margin-top: 0.5rem;
+    }
+
+    .container-fluid {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .btn- {
+        margin: 0.5rem 0;
+    }
+}
