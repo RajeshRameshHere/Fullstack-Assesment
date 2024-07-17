@@ -56,9 +56,4 @@ public class EmailContoller {
         return new ResponseEntity<>(emailResponse,HttpStatus.OK);
 
     }
-//    @PostMapping()
-//    public ResponseEntity<EmailDTO> saveEmailHistory(@RequestBody EmailDTO emailDTO){
-//        EmailDTO emailHistory= emailService.saveEmails(emailDTO);
-//        return new ResponseEntity<>(emailHistory,HttpStatus.CREATED);
-//    }
 }
