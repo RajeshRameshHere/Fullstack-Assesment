@@ -17,9 +17,8 @@ public class EmailHistory {
     private Long id;
     @Column(name = "`to`") 
     private String to;
-    private String body;
-
     private String sub;
+    private String body;
 
    
 
