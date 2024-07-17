@@ -30,7 +30,7 @@ public class EmailContoller {
         List<String> vendorEmails = emailRequest.getVendorEmails();
 
         for (String vendorEmail : vendorEmails) {
-            // Assuming emailService can retrieve vendors by email
+            
             VendorDTO vendor = emailService.vendorList(vendorEmail);
             if (vendor != null) {
                 String message = "Payment Notification: This payment is the notification for " + vendor.getName() +
