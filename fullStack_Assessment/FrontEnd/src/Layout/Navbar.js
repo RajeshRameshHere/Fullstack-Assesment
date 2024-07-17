@@ -10,7 +10,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Cred Merg
+            Cred Marg
           </a>
           <button
             className="navbar-toggler"
