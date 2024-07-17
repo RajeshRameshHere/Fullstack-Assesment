@@ -15,15 +15,15 @@ public class EmailHistory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    @Column(name = "`to`") 
+    private String to;
     private String body;
 
     private String sub;
 
-    @Column(name = "`to`") // Mapping the 'to' column name with backticks
-    private String to;
+   
 
-    // Getters and setters
+    
 }
 
 
