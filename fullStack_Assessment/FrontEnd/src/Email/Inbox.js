@@ -31,9 +31,9 @@ export default function Inbox() {
             <thead>
               <tr>
                 <th scope="col">ID</th>
-                <th scope="col">To</th>
-                <th scope="col">Sub</th>
                 <th scope="col">Body</th>
+                <th scope="col">Sub</th>
+                <th scope="col">To</th>
               </tr>
             </thead>
             <tbody>
