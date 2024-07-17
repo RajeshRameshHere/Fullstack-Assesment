@@ -31,9 +31,10 @@ export default function Inbox() {
             <thead>
               <tr>
                 <th scope="col">ID</th>
-                <th scope="col">Body</th>
-                <th scope="col">Sub</th>
                 <th scope="col">To</th>
+                <th scope="col">Sub</th>
+                <th scope="col">Body</th>
+                
               </tr>
             </thead>
             <tbody>
@@ -41,9 +42,9 @@ export default function Inbox() {
                 emails.map((email, index) => (
                   <tr key={index}>
                     <th scope="row">{index + 1}</th>
-                    <td>{email.body}</td>
-                    <td>{email.sub}</td>
                     <td>{email.to}</td>
+                    <td>{email.sub}</td>
+                    <td>{email.body}</td>
                   </tr>
                 ))
               ) : (
